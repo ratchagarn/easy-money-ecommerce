@@ -9,7 +9,7 @@
  * that starts the plugin.
  *
  * @link              https://github.com/ratchagarn
- * @since             1.1.0
+ * @since             1.0.0
  * @package           Easy_Money_Ecommerce
  *
  * @wordpress-plugin
@@ -32,7 +32,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 /**
  * Currently plugin version.
- * Start at version 1.1.0 and use SemVer - https://semver.org
+ * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
 define( 'EASY_MONEY_ECOMMERCE_VERSION', '1.1.0' );
@@ -71,7 +71,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-easy-money-ecommerce.php';
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.1.0
+ * @since    1.0.0
  */
 function run_easy_money_ecommerce() {
 	$plugin = new Easy_Money_Ecommerce();
